@@ -1,0 +1,33 @@
+const TodoData = [
+    {
+        id: 1,
+        text: "Take out the trash",
+        completed: true
+    },
+    {
+        id: 2,
+        text: "Grocery shopping",
+        completed: false
+    },
+    {
+        id: 3,
+        text: "Walk the dog",
+        completed: false
+    },
+    {
+        id: 4,
+        text: "Mow lawn",
+        completed: true
+    },
+    {
+        id: 5,
+        text: "Eat",
+        completed: false
+    },
+    {
+        id: 6,
+        text: "Sleep",
+        completed: true
+    }
+]
+export default TodoData
