@@ -29,7 +29,14 @@ class App extends Component {
     const todoitems = this.state.todos.map((item) => (
       <TodoItem item={item} key={item.id} handleChange={this.handleChange} />
     ));
-    return <div className="todo-list">{todoitems}</div>;
+    return (
+      <>
+        <div>
+          <h1 className="heading">To-do</h1>
+        </div>
+        <div className="todo-list">{todoitems}</div>
+      </>
+    );
   }
 }
 export default App;

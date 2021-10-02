@@ -32,3 +32,8 @@ body{
 input[type=checkbox] {
   margin-right: 10px;
 }
+
+.heading{
+  text-align: center;
+  font-weight: bold;
+}
